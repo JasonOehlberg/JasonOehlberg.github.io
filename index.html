@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jason Oehlberg</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+	<script src="https://use.fontawesome.com/baf4241d2d.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- navbar menu -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container" >
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<h2><a class="navbar-brand pull-right" href="about">Jason Oehlberg</a></h2>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-bars fa-2x"></i>
+						</a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header">Menu</li>
+						<li><a href="#">Admin 1</a></li>
+						<li><a href="#">Admin 2</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Portfolio</li>
+						<li><a href="#">Portfolio 1</a></li>
+						<li><a href="#">Portfolio 2</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div> <!-- .nav-collapse -->
+		</div>
+	</div><!-- end of navbar menu -->
+	
+	<!-- begin of main content -->
+	<div class="container-fluid" id="intro">
+		<div class="row">
+			<div class="thumbnail col-sm-6" id="aboutPic">
+				<img src="images\jasonTrio.jpg" alt="Three candid pics of Jason" width="60%">
+			</div>
+			<div class="panel-fluid col-sm-6" id="about" width="40%;">
+				<div class="panel-heading text-center" id="aboutHeading">
+					<h2>About</h2>
+				</div>
+				<div class="panel-body">
+					<p>I am currently a student at Northeastern State University, pursuing a Bachelor's degree in Computer Science.
+					My goal upon graduation is to work toward a career as a Software Engineer.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="panel" id="intro_program">
+				<div class="panel-heading">
+				<h4><font color="#717CA0;">class</font> Jason:</h4>
+				</div>
+				<div class="panel-body">
+					
+					<dl >
+						<dt>print( Jason.home )</dt>
+						<dd>"Tulsa, Oklahoma"</dd>
+						<dt>print( Jason.education )</dt>
+						<dd>["Northeastern State University", "Tulsa Community College"]</dd>
+						<dt>print( Jason.major )</dt>
+						<dd>"Computer Science"</dd>
+						<dt>print( Jason.graduation )</dt>
+						<dd>"December 2018"</dd>
+						<dt>print( Jason.interests )</dt>
+						<dd>["programming", "design", "photography", "video games", "cooking", "travel"]</dd>
+						<dt>print( Jason.resume )</dt>
+						<dd>"resume"</dd>
+					</dl>
+				</div>
+			</div>	
+			
+		</div>
+	</div>	
+	<div class="container-fluid">
+		
+	</div>
+	
+	
+	<!-- footer -->
+	<div class="navbar-footer navbar-inverse">
+		<div class="container">
+			<div class="navbar-text pull-left">
+				<p>© 2017 Jason Oehlberg.</p>
+			</div>
+			
+			<div class="navbar-text pull-right">
+				
+				<a href="https://www.facebook.com/jason.oehlberg/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+				<a href="#"><i class="fa fa-github fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/jason-trent-oehlberg" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+				<a href="#contact" data-toggle="modal"><i class="fa fa-envelope fa-2x"></i></a>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Contact</h4>
+				</div>
+				<div class="modal-body">
+					<p><a href="mailto:jt.oehlberg@outlook.com">jt.oehlberg@outlook.com</p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-primary" data-dismiss="modal">Close</a>
+			</div>
+		</div>
+	</div>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
