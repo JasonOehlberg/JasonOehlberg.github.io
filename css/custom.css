@@ -42,6 +42,10 @@ body {
 	color: #FFDC54;
 }
 
+#inro_program > a {
+	color: inherit;
+}
+
 #about {
 	background-color: #5A5895;
 	margin-top: 5%;
