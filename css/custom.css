@@ -49,7 +49,7 @@ body {
 #about {
 	background-color: #5A5895;
 	margin-top: 5%;
-	border: 5px solid white;
+	padding: 0, 0, 0, 5px;
 }
 
 #aboutPic {
@@ -60,6 +60,20 @@ body {
 
 #random {
 	border: none;
+	width: 45%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #061A20;
+}
+
+#random p {
+	
+}
+
+#projects {
+	background-color: #5A5895;
 }
 
 
