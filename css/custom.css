@@ -16,6 +16,7 @@
 body {
 	margin-top: 5%;
 	font-family: 'Cutive Mono', monospace;
+	letter-spacing: -1px;
 }
 
 #intro {
@@ -69,11 +70,42 @@ body {
 }
 
 #random p {
+	text-align: center;
+	color: dark-gray;
+}
+
+
+
+#education {
+	
+	padding-top: 20px;
+}
+
+.media-heading {
+	padding-top: 10px;
+	line-height: 1.2em;
 	
 }
 
-#projects {
-	background-color: #5A5895;
+.media-body {
+	padding-left: 20px;
+	padding-right: 5px;
 }
 
+.media-body h4 {
+	margin-top: 40px;
+}
+
+.media-body ul {
+	font-size: 18px;
+	line-height: 2.0em;
+	padding-left: 50px;
+}
+
+#rightHead {
+	float: right;
+	font-size: 22px;
+	letter-spacing: -2px;
+	font-style: italic;
+}
 
