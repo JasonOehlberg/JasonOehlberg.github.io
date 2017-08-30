@@ -74,12 +74,17 @@ body {
 	color: dark-gray;
 }
 
-
+#info {
+	background-color: #E1DED7;
+}
 
 #education {
-	
+	background-color: #E1DED7;
 	padding-top: 20px;
+	border: none;
 }
+
+
 
 .media-heading {
 	padding-top: 10px;
@@ -98,14 +103,33 @@ body {
 
 .media-body ul {
 	font-size: 18px;
-	line-height: 2.0em;
+	line-height: 3.0em;
 	padding-left: 50px;
 }
-
-#rightHead {
-	float: right;
-	font-size: 22px;
-	letter-spacing: -2px;
-	font-style: italic;
+.media-body p {
+	font-size: 18px;
 }
 
+
+.label {
+	dislay: inline-block;
+	line-height: 1;
+	text-align: center;
+	padding: 4px 8px;
+	border-radius: 2px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+}
+
+.label.label-outlined {
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent
+}
+
+.label.label-outlined.label-primary {
+  border-color: #2196F3;
+  color: #2196F3
+}
