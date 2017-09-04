@@ -18,6 +18,15 @@ body {
 	font-family: 'Cutive Mono', monospace;
 	letter-spacing: -1px;
 }
+#heading {
+	padding-left: 50px;
+	font-size: 20px;
+	border-bottom: 0.5px solid black;
+}
+
+hr {
+	color: black;
+}
 
 #intro {
 	background-color: #919395;
@@ -78,12 +87,18 @@ body {
 	background-color: #E1DED7;
 }
 
-#education {
-	background-color: #E1DED7;
-	padding-top: 20px;
-	border: none;
+#resume {
+	font-size: 22px;
+	text-align: center;
 }
 
+#education {
+	background-color: #E1DED7;
+	padding: 40px 10px;
+	margin-top: 20px;
+	border: none;
+	
+}
 
 
 .media-heading {
@@ -94,7 +109,7 @@ body {
 
 .media-body {
 	padding-left: 20px;
-	padding-right: 5px;
+	padding-right: 30px;
 }
 
 .media-body h4 {
@@ -103,17 +118,21 @@ body {
 
 .media-body ul {
 	font-size: 18px;
-	line-height: 3.0em;
+	line-height: 2em;
 	padding-left: 50px;
 }
 .media-body p {
 	font-size: 18px;
 }
 
+#intern {
+	font-size: 18px;
+	background-color: #E1DED7;
+}
 
 .label {
-	dislay: inline-block;
-	line-height: 1;
+	display: inline-block;
+	line-height: 1.5;
 	text-align: center;
 	padding: 4px 8px;
 	border-radius: 2px;
@@ -126,8 +145,10 @@ body {
 .label.label-outlined {
   border-width: 1px;
   border-style: solid;
-  background-color: transparent
+  background-color: transparent;
+  
 }
+
 
 .label.label-outlined.label-primary {
   border-color: #2196F3;
