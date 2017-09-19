@@ -69,6 +69,8 @@ body {
 	color: #FFDC54;
 }
 
+
+/* styles for the programs section #random */
 #random {
 	border: none;
 	width: 45%;
@@ -88,13 +90,14 @@ body {
 	background-color: #E1DED7;
 }
 
+/* styles for the resume section */
 #resume {
 	font-size: 22px;
 	text-align: center;
 }
 
 #resumeIMG {
-	padding: 50px 0px 0px 200px;
+	padding: 40px 0px 0px 200px;
 }
 
 #education {
@@ -106,7 +109,7 @@ body {
 	
 }
 
-
+/* styles for the body of the resume */
 .media-heading {
 	padding-top: 10px;
 	line-height: 1.2em;
@@ -131,11 +134,13 @@ body {
 	font-size: 18px;
 }
 
+
 #intern {
 	font-size: 18px;
 	background-color: #EAE3ED;
 }
 
+/* styles for the labels used in resume elements */
 .label {
 	display: inline-block;
 	line-height: 1.5;
