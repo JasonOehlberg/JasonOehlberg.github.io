@@ -135,11 +135,13 @@ body {
 	font-size: 18px;
 }
 
+/* styles for the intern container */
 
 #intern {
 	font-size: 18px;
-	background-color: #EAE3ED;
+	background-color: #bcc4a8;
 }
+
 
 /* styles for the labels used in resume elements */
 .label {
