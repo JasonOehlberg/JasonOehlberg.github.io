@@ -30,7 +30,8 @@ body {
 #intro {
 	background-color: #767873;
 	color: white;
-	padding: 5%;
+	padding-top: 4%;
+	padding-bottom: 3%;
 }
 #about {
 	background-color: #c4503d;
