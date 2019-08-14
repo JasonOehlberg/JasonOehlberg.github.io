@@ -1,0 +1,170 @@
+
+
+/* navagation bar */
+.navbar-text > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.dropdown-toggle {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+.navbar-brand {
+	font-size: 28px;
+}
+
+/* default body style */
+
+body {
+	margin-top: 5%;
+	font-family: 'Cutive Mono', monospace;
+	letter-spacing: -1px;
+}
+
+
+/* first horizontal container -- holding #about and #aboutPic */
+
+#intro {
+	background-color: #767873;
+	color: white;
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+#about {
+	background-color: #c4503d;
+	margin-top: 5%;
+	padding: 0, 0, 0, 5px;
+}
+
+#aboutPic {
+	background: #767873;
+	border: none;
+	margin: 40px 0px;
+	
+}
+
+/* styles for the container #containProgram and its contents #introProgram */
+
+#containProgram {
+	background-color: #bcc4a8;
+}
+
+#intro_program {
+	color: white;
+	background-color: #061A20;
+	padding-left: 10%;
+	line-height: 2em;
+	margin: 50px 0px;
+
+}
+
+#intro_program dd+dt {
+	line-height: 2.5em;
+}
+
+#intro_program dd {
+	text-indent: 4%;
+	color: #FFDC54;
+}
+
+
+/* styles for the programs section #random */
+#random {
+	border: none;
+	width: 45%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #061A20;
+}
+
+#random p {
+	text-align: center;
+	color: dark-gray;
+}
+
+#info {
+	background-color: #E1DED7;
+}
+
+/* styles for the resume section */
+#resume {
+	font-size: 22px;
+	text-align: center;
+}
+
+#resumeIMG {
+	padding: 50px 0px 0px 170px;
+}
+
+#education {
+	background-color: #E1DED7;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	border: none;
+	
+}
+
+/* styles for the body of the resume */
+.media-heading {
+	padding-top: 10px;
+	line-height: 1.2em;
+	
+}
+
+.media-body {
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.media-body h4 {
+	margin-top: 40px;
+}
+
+.media-body ul {
+	font-size: 18px;
+	line-height: 2em;
+	padding-left: 50px;
+}
+.media-body p {
+	font-size: 18px;
+}
+
+/* styles for the intern container */
+
+#intern {
+	font-size: 18px;
+	background-color: #bcc4a8;
+}
+
+
+/* styles for the labels used in resume elements */
+.label {
+	display: inline-block;
+	line-height: 1.5;
+	text-align: center;
+	padding: 4px 8px;
+	border-radius: 2px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+}
+
+.label.label-outlined {
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  
+}
+
+
+.label.label-outlined.label-primary {
+  border-color: #2196F3;
+  color: #2196F3
+}
